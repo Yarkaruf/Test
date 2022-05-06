@@ -1,0 +1,17 @@
+.search{
+    width: 50%;
+    height: 52px;
+    padding: 0 24px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--gray);
+    border: none;
+    background-image: url('../Search/Vector.svg'); /* Добавить значок поиска для ввода */
+    background-position: 97% 50%; /* Расположите значок поиска */
+    background-repeat: no-repeat; /* Не повторяйте изображение значка */
+    color: white;
+}

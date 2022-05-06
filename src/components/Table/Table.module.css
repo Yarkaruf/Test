@@ -1,0 +1,32 @@
+.table{
+    width: 100%;
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 78vh;
+    max-height: 85vh;
+    margin-top: 15px;
+}
+.thead{
+    display: grid;
+    grid-template-columns: 1fr 4fr 3fr;
+    height: 56px;
+    background-color: var(--primary);
+}
+.tbody{
+    display: grid;
+    grid-template-columns: 1fr 4fr 3fr;
+}
+.item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:solid 1px rgb(223, 223, 223);
+}
+.table h3{
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 25px;
+    color: var(--white);
+}
